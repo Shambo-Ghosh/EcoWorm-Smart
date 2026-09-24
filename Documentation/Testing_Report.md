@@ -33,7 +33,7 @@
 - Long-duration/unattended field reliability (multi-day, multi-week run without intervention) has not yet been tested.
 - Behavior under a genuine multi-hour power outage in the field (as opposed to a bench power-cycle test) has not been separately verified.
 
-## Known Issues (see `Bug_Fixes.md` for the private engineering log)
+## Known Issues
 
 - DS3231 coin-cell backup is not always reliable on the specific breakout board in use — addressed in firmware via a flash-based time checkpoint, but the underlying hardware issue is worth resolving on the custom PCB.
 - GPRS bearer setup on the SIM900A occasionally fails on the first attempt; a retry approach exists in one firmware branch and is planned to be merged into the primary build.
