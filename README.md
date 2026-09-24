@@ -77,4 +77,4 @@ See `Documentation/Testing_Report.md` for what's verified and what's still pendi
 - `PCB_Design/` — KiCad schematic, layout, renders (once ready)
 - `Results/` — calibration data, sensor readings, water usage measurements
 - `Images/` — build photos
-- `Demo/` — demonstration video and screenshots
+- `Demo/` — demonstration screenshots
